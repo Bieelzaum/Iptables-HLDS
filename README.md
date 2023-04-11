@@ -7,7 +7,7 @@ Depois salve: service iptables save
 Instale o rsyslog
 Edite o arquivo rsyslog.conf em /etc
 Adicione:
-# kern.debug                        /var/log/firewall.log
+kern.debug                        /var/log/firewall.log
 :msg,startswith,"iptables" -/var/log/iptables.log
 & ~
 

@@ -1,4 +1,4 @@
-# Iptables HLDS
+# iptables para HLDS - Testado em CentOS 6.5 e 7.2 
 
 Essa config bloqueia entrada e saída, libera apenas a porta UDP 27015 com um pedido por segundo, você pode aumentar isso em hashlimit-upto
 
